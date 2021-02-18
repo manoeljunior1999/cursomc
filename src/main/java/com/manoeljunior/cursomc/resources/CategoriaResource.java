@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.manoeljunior.cursomc.domain.Categoria;
 
 @RestController
-@RequestMapping(value="/Categorias")
+@RequestMapping(value="/categorias")
 public class CategoriaResource {
 	
 	@RequestMapping(method=RequestMethod.GET)
