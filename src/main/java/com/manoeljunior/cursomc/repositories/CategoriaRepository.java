@@ -8,4 +8,6 @@ import com.manoeljunior.cursomc.domain.Categoria;
 @Repository
 public interface CategoriaRepository extends JpaRepository<Categoria, Integer> { //Herda uma outra interface, que é capaz de acessar os dados com base deum tipo que vc passar//
 	
+	
+	
 }
